@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\elcam\\Documents\\Github\\demo\\Carsties\\src\\AuctionService\\AuctionService.csproj": {}
+    "C:\\Users\\elcam\\Documents\\Github\\demo\\Carsties\\src\\AuctionService\\AuctionService.csproj": {}
   },
   "projects": {
-    "c:\\Users\\elcam\\Documents\\Github\\demo\\Carsties\\src\\AuctionService\\AuctionService.csproj": {
+    "C:\\Users\\elcam\\Documents\\Github\\demo\\Carsties\\src\\AuctionService\\AuctionService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\elcam\\Documents\\Github\\demo\\Carsties\\src\\AuctionService\\AuctionService.csproj",
+        "projectUniqueName": "C:\\Users\\elcam\\Documents\\Github\\demo\\Carsties\\src\\AuctionService\\AuctionService.csproj",
         "projectName": "AuctionService",
-        "projectPath": "c:\\Users\\elcam\\Documents\\Github\\demo\\Carsties\\src\\AuctionService\\AuctionService.csproj",
+        "projectPath": "C:\\Users\\elcam\\Documents\\Github\\demo\\Carsties\\src\\AuctionService\\AuctionService.csproj",
         "packagesPath": "C:\\Users\\elcam\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\elcam\\Documents\\Github\\demo\\Carsties\\src\\AuctionService\\obj\\",
+        "outputPath": "C:\\Users\\elcam\\Documents\\Github\\demo\\Carsties\\src\\AuctionService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elcam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,26 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
